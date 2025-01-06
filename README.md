@@ -1,6 +1,5 @@
-pip install pypdf
-pip install reportlab
-pip install pymupdf
+Automation Tool to create cover letters for companies I'm applying to quickly
 
-
-from pdfminer.high_level import extract_text
+Libaries Required:
+pip install pdfminer.six
+pip install fpdf

@@ -5,7 +5,7 @@ import re
 def main():
     positionName = ""
     companyName = ""
-    companyValue = ""
+    companyValue = "" # Do not include period at the end of sentence
     companyAddress = ""
     industry = "Technology"
     hiringManager = "Hiring Manager"
@@ -53,8 +53,7 @@ def main():
 
     pdf.output(outputPath)
 
-    print("Done")
-
+    print(f"PDF has been created and saved to {outputPath}")
 
 if __name__ == "__main__":
     main()

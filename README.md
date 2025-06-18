@@ -1,12 +1,6 @@
-Automation Tool to create cover letters for companies I'm applying to quickly
+# 📝 Cover Letter Generator
 
-Libaries Required:
- - pip install pdfminer.six
- - pip install fpdf
-
- # 📝 Cover Letter Generator
-
-This project automates the generation of personalized cover letters by filling in a customizable PDF template with job-specific information.
+When I was applying to lots of internships in my freshmen year of school, I was frustrated with having to create a unique cover letter for each company I applied to. Tired of the manual labor, I decided to automate the whole process so it works in a single button click. This project automates the generation of personalized cover letters by filling in a customizable PDF template with job-specific information.
 
 ## 📌 Features
 
